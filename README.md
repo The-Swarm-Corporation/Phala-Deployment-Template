@@ -72,7 +72,7 @@ volumes:
 1. Check the initialization logs of your agent
    <p align="center">
    <img src="./assets/imgs/02_serial_logs.png" alt="Agent initialization logs" style="width: 500px;">
-   <img src="./assets/imgs/03_serial_logs.png" alt="Detailed initialization logs" style="width: 500px;">
+   <img src="./assets/imgs/03_serial_logs.jpg" alt="Detailed initialization logs" style="width: 500px;">
    </p>
 
 2. Verify your container is running
@@ -82,7 +82,7 @@ volumes:
 
 3. Monitor your agent's output
    <p align="center">
-   <img src="./assets/imgs/05_agent_output.png" alt="Swarms Agent Logs" style="width: 500px;">
+   <img src="./assets/imgs/05_agent_output.jpg" alt="Swarms Agent Logs" style="width: 500px;">
    </p>
 
 #### 4. ✅ Verify TEE Attestation

@@ -64,25 +64,25 @@ volumes:
 4. Importantly, make sure to add the `OPENAI_API_KEY` in the `Encrypted Secrets` section with your own OpenAI API key.
 5. Click `Create` button to create a new Swarms agent application.
    <p align="center">
-   <img src="./assets/imgs/01_create_agent_on_phala_cloud.png" alt="Creating a Swarms agent on Phala Cloud" style="width: 700px;">
+   <img src="./assets/imgs/01_create_agent_on_phala_cloud.png" alt="Creating a Swarms agent on Phala Cloud" style="width: 500px;">
    </p>
 
 #### 3. 📊 Monitor Your Deployment
 
 1. Check the initialization logs of your agent
    <p align="center">
-   <img src="./assets/imgs/02_serial_logs.png" alt="Agent initialization logs" style="width: 700px;">
-   <img src="./assets/imgs/03_serial_logs.png" alt="Detailed initialization logs" style="width: 700px;">
+   <img src="./assets/imgs/02_serial_logs.png" alt="Agent initialization logs" style="width: 500px;">
+   <img src="./assets/imgs/03_serial_logs.png" alt="Detailed initialization logs" style="width: 500px;">
    </p>
 
 2. Verify your container is running
    <p align="center">
-   <img src="./assets/imgs/04_swarms_agent_containers.png" alt="Swarms Agent Container Status" style="width: 700px;">
+   <img src="./assets/imgs/04_swarms_agent_containers.png" alt="Swarms Agent Container Status" style="width: 500px;">
    </p>
 
 3. Monitor your agent's output
    <p align="center">
-   <img src="./assets/imgs/05_agent_output.png" alt="Swarms Agent Logs" style="width: 700px;">
+   <img src="./assets/imgs/05_agent_output.png" alt="Swarms Agent Logs" style="width: 500px;">
    </p>
 
 #### 4. ✅ Verify TEE Attestation
@@ -90,7 +90,7 @@ volumes:
 Ensure your agent is running in a secure TEE environment by checking the attestation proof on the [TEE Attestation Explorer](https://proof.t16z.com/).
 
 <p align="center">
-<img src="./assets/imgs/06_attestation.png" alt="TEE Attestation Verification" style="width: 700px;">
+<img src="./assets/imgs/06_attestation.png" alt="TEE Attestation Verification" style="width: 500px;">
 </p>
 
 ### 🎉 Success!

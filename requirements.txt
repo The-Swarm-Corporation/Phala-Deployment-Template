@@ -3,3 +3,6 @@ loguru
 python-dotenv
 pyyaml
 swarm-models
+langchain-community
+langchain-core
+litellm==1.67.2

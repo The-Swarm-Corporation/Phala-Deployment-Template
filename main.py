@@ -1,28 +1,23 @@
 import os
 
-from dotenv import load_dotenv
 from loguru import logger
 from swarm_models import OpenAIChat
-
-from swarms.agents.create_agents_from_yaml import (
-    create_agents_from_yaml,
-)
-
-# Load environment variables
-load_dotenv()
+from swarms.agents.create_agents_from_yaml import create_agents_from_yaml
 
 # Path to your YAML file
 yaml_file = "agents.yaml"
 
 
 # Get the OpenAI API key from the environment variable
-api_key = os.getenv("GROQ_API_KEY")
+api_key = os.getenv("OPENAI_API_KEY")
+openai_api_base = os.getenv("OPENAI_API_BASE")
+model_name = os.getenv("MODEL_NAME")
 
 # Model
 model = OpenAIChat(
-    openai_api_base="https://api.groq.com/openai/v1",
+    openai_api_base=openai_api_base,
     openai_api_key=api_key,
-    model_name="llama-3.1-70b-versatile",
+    model_name=model_name,
     temperature=0.1,
 )
 

@@ -1,6 +1,7 @@
 
 # Swarms 1-Click Template on Phala Cloud
 
+[![](https://cloud.phala.network/deploy-button.svg)](https://cloud.phala.network/templates/mcp-swarms-agent)
 
 ## 🚀 Quick Start
 

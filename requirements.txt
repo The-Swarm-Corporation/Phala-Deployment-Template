@@ -5,4 +5,4 @@ pyyaml
 swarm-models
 langchain-community
 langchain-core
-litellm==1.67.2
+litellm==1.72.0
